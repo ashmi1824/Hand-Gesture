@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <title>Hand Gesture</title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
+
+<body>
+    <div class="container">
+        <center>
+            <h3 class="btn btn-warning heading">EMOTION TO EMOJI APP
+                <br>
+                <span>&#9996;</span>
+                
+                <span>&#128075;</span>
+                <span>&#9995;</span>
+                <span>&#128077;</span>
+                <span>&#128406;</span>
+                
+            </h3>
+            <p style="font-size:22px;">Show any of the above gestures in front of the camera and it will tell you
+                what it means</p>
+            <br>
+            
+     
+    <br>
+    
+
+        
+        </center>
+        <span class="span" > <div class="col-md-4 col-sm-12 col-xs-12">
+        <label>Webcam view - </label>
+            <br>
+            <br>
+            <br>
+            <div id="snapshot"></div>
+            <button onclick="takeSnapshot()" type="button" >Take Picture</button>                               
+        </div>
+    </span>
+
+    
+    
+
+    <span class="span"> <div class="col-md-4 col-sm-12 col-xs-12">
+        <label>Snapshot - </label>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="snapshot"></div>
+        <button onclick="predict()" type="button" >Predict Emoji</button> 
+        
+        
+    </div>
+</span>
+    </div>
+</body>
+
+</html>

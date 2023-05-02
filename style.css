@@ -1,0 +1,24 @@
+body{
+    background-color: lavender;
+}
+.heading{
+    width: 100%;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+}
+button{
+    background-color: lightcoral;
+    border:2px dashed rgb(144, 30, 186);
+    font-size: 20px;
+    max-width:fit-content;
+margin-left: 75%;
+
+    
+
+}
+label{
+    font-size: 15px;
+    margin-left: 75%;
+}
